@@ -3,7 +3,6 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    ping_count = ping_count + 1
     return """<html>
     <head><body>
     <p>Hello World!</p>
