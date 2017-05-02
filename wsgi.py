@@ -5,7 +5,8 @@ application = Flask(__name__)
 def hello():
     return """<html>
     <head><body>
-    <p>Hello World!</p>
+    <p>Hello Syngenta!</p>
+    <p>Let's build a better IS environment. Maybe something like what's in the Phoenix Project</p>
     </body></head></html>"""
 
 if __name__ == "__main__":
